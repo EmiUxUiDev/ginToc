@@ -1,0 +1,107 @@
+section.item-section {
+    width: 100%;
+    height: 450px;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    /* overflow: hidden; */
+}
+
+div.item-text {
+    width: 30%;
+    text-align: left;
+
+}
+
+div.item-text h1 {
+    color: var(--clr-secondary);
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 4rem;
+    text-align: right;
+}
+
+div.item-text p {
+    color: var(--clr-light-grey);
+    letter-spacing: 1px;
+    margin-top: 1.5rem;
+    font-family: var(--font-2);
+    text-align: justify;
+}
+
+section img.item-img {
+    z-index: -1;
+    width: 400px;
+    filter: drop-shadow(15px 5px 15px rgb(0, 0, 0));
+}
+
+.item-btn {
+    margin-top: 1.5rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.1rem;
+    color: var(--clr-light-grey);
+    background: linear-gradient(0deg, var(--clr-secondary) 75%, var(--clr-secondary-hover) 100%);
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: var(--rnd-strong);
+    z-index: 20;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.item-btn:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 25px 1px var(--clr-secondary-hover);
+}
+
+.wrapper-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.load-btn {
+    width: 200px;
+    margin: 1rem auto 8rem auto;
+}
+
+div.loader {
+    position: fixed;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    top: 0%;
+    z-index: 999;
+    background-color: var(--black-transparent);
+}
+
+div.loader img {
+    position: fixed;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    z-index: 1000;
+}
+
+h3 {
+    text-align: center;
+    color: var(--clr-light-grey);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 1rem 0 0 0;
+}
+
+div.wrapper-container div.title-wrapper {
+    width: 100%;
+    height: 27px;
+    margin: 2rem 0 1.5rem 0;
+    background-color: var(--clr-primary);
+    filter: drop-shadow(0px 2px 7px var(--black-transparent));
+}
+
+div.wrapper-container div.title-wrapper h4 {
+    padding: 0.4rem 0 0 0;
+    letter-spacing: 1px;
+    color: #fff;
+}

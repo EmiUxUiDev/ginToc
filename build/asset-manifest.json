@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41219d94.css",
+    "main.js": "/static/js/main.3631f980.js",
+    "static/media/gintocLogo.png": "/static/media/gintocLogo.e1762502d2bb6b09dec6.png",
+    "index.html": "/index.html",
+    "main.41219d94.css.map": "/static/css/main.41219d94.css.map",
+    "main.3631f980.js.map": "/static/js/main.3631f980.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41219d94.css",
+    "static/js/main.3631f980.js"
+  ]
+}

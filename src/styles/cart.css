@@ -1,0 +1,16 @@
+section.main-wrapper{
+    width: 60%;
+    height: 400px;
+    margin: 4rem auto 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid var(--clr-secondary-hover);
+    border-radius: var(--rnd-med);
+    background-color: var(--light-black-transparent);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--light-white-transparent);
+    border-radius: 15px;
+}
+h2{color: #fff;}

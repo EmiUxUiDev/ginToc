@@ -1,0 +1,40 @@
+section.about-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.about-img{
+    position: relative;
+    width: 70%;
+    margin: 10rem 1rem 2rem 1rem;
+    border: 1px solid var(--clr-secondary-hover);
+    border-radius: var(--rnd-med);
+}
+.about-txt{
+    position: absolute;
+    width: 70%;
+    height: auto;
+    padding: 0.5rem;
+    margin-left: 10rem;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--light-black-transparent);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--light-white-transparent);
+    border-radius: 15px;
+}
+.about-wrapper h2{
+    width: 200px;
+    color: var(--clr-light-grey);
+    padding: 1rem;
+
+}
+.about-wrapper p{
+    color: var(--clr-secondary-hover);
+    padding: 1rem;
+}

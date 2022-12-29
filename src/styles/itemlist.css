@@ -1,0 +1,9 @@
+section.wrapper-list{
+    width: 100%;
+    margin-top: 3rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
